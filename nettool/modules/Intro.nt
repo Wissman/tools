@@ -1,0 +1,23 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+ NETOOL - MitM Pentesting OpenSource toolkit - CHANGELOG : v4.5
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+  + UPGRADE      =>  msfpayload and msfencode replaced by msfvenom
+  + UPGRADE      =>  unicorn.py (meterpreter powershell by ReL1K)
+  + netool.sh    => "added" Resize terminal windows size
+  + netool.sh    => "added" nmap stealth scan (scan evading IDS logs)
+  + priv8.sh     => "added" missing google cast extension phishing webpage
+  + priv8.sh     => "added" 'use host-a-file-attack' OR 'start a listenner'
+                    module to all non-automated exploits.
+
+  * priv8.sh     => "improved" android payload -> meterpreter or shell payloads
+  * priv8.sh     => "improved" generate shellcode -> added "DLL" funtion
+  * priv8.sh     => "improved" generate shellcode -> added "C-to-EXE" (Veil-Evasion)
+  * priv8.sh     => "improved" backdooring EXE files -> added "BDF" module
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+ HOME PROJECT: http://sourceforge.net/projects/netoolsh/?source=directory
+ REPORT BUGS: https://sourceforge.net/p/netoolsh/discussion/general/thread
+ MY WIKI: http://sourceforge.net/p/netoolsh/wiki/netool.sh%20script%20project
+-----------------------------------------------------------------------------------------------------------------------------------------
+ @Suspicious Shell Activity Labs @r00tsector @En0x-Sec_Lab @dwebcrew

@@ -1,0 +1,4 @@
+Pour les transfert de zone DNS voici la démarche
+
+dig @challenge01.root-me.org ch11.challenge01.root-me.org -p 54011 axfr
+Nom domaine résolu par le server	DNS de la zone	Port Transfert

